@@ -30,7 +30,8 @@ export default {
         blackP:{
           DEFAULT:"#050505",
           900:"#000000",
-          300:"#05050569"
+          300:"#05050569",
+          200:"#05050540"
 
         }
       },
@@ -38,7 +39,8 @@ export default {
         outfit:["Outfit", "sans-serif"]
       },
       boxShadow:{
-        buttons : "0px 3px 5px #a8a8a8 "
+        buttons : "0px 3px 5px #a8a8a8 ",
+        btnNext : "4px 6px 2px #a8a8a8,-4px -2px 2px #a8a8a8"
       }
     },
   },

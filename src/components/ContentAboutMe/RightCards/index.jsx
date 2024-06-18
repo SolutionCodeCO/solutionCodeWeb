@@ -4,7 +4,7 @@ import SistematizeBusiness from "./SistematizeBusiness"
 
 function  RightCards() {
     return (
-      <section className="col-start-3 col-end-7  grid grid-cols-3 grid-rows-1">
+      <section className="col-start-3 col-end-7 grid grid-cols-3 grid-rows-1">
           <SistematizeBusiness/>
           <CardTitle />
           <CardBottomRigth />

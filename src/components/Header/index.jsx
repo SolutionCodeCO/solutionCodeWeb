@@ -8,11 +8,12 @@ function  Header({color}) {
       clsx(
         "flex items-center justify-between px-6 fixed top-4 right-0 left-0",
         {
-          "text-whiteP": color === "dark",
-          "text-primary": color === "light",
+          "text-whiteP bg-transparent": color === "dark",
+          "text-primary bg-whiteP": color === "light",
         }
       )}
     >
+
       <Logo color={color}/>
       <NavHeader color={color}/>
       <IconsHeader color={color} />
